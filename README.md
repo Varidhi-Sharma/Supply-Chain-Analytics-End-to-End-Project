@@ -34,7 +34,7 @@ Star schema consisting of fact and dimension tables optimized for reporting.
 Interactive dashboards for Procurement, Supplier Performance, and Inventory Health.
 
 ## Data Warehouse Design
-### Bronze Layer
+### - Bronze Layer
 Raw data loaded without transformations.
 
 #### Tables:
@@ -45,7 +45,7 @@ Raw data loaded without transformations.
 - shipments
 - warehouses
 
-### Silver Layer
+### - Silver Layer
 Data cleansing and standardization performed using SQL.
 
 #### Activities:
@@ -55,14 +55,14 @@ Data cleansing and standardization performed using SQL.
 - Standardize country values
 - Validate data types
 
-### Gold Layer
+### - Gold Layer
 Business-ready star schema.
 
-#### Fact Tables:
+#### = Fact Tables:
 - Fact Procurement
 - Fact Inventory
 
-#### Dimension Tables:
+#### - Dimension Tables:
 - Dim Date
 - Dim Products
 - Dim Suppliers
@@ -72,13 +72,13 @@ Business-ready star schema.
 This project uses a synthetic supply chain dataset created for portfolio and educational purposes. The data simulates purchase orders details, supplier, inventory, shipment, and warehouse operations and includes realistic data quality issues to support ETL and analytics workflows.
 
 ### Key Performance Indicators
-#### Procurement
+#### 1.Procurement
 - Total Orders
 - Fill Rate %
 - Total Ordered Quantity
 - Total Received Quantity
 
-#### Supplier Performance
+#### 2.Supplier Performance
 - Average Supplier Rating
 - On-Time Delivery %
 - Delivery Variance
@@ -88,7 +88,7 @@ This project uses a synthetic supply chain dataset created for portfolio and edu
 - Average Stock per Warehouse
   
 ### Dashboard Pages
-#### Executive Overview
+#### 1.Executive Overview
 Provides a high-level summary of supply chain performance.
 
 Features:
@@ -97,7 +97,7 @@ Features:
 - Order Trends
 - Top Products
 
-#### Supplier Performance Analysis
+#### 2.Supplier Performance Analysis
 Provides supplier-level insights.
 
 Features:
@@ -106,7 +106,7 @@ Features:
 - On-Time Deliveries vs Late Deliveries
 - Supplier Country Distribution
 
-#### Inventory Health & Warehouse Analysis
+#### 3.Inventory Health & Warehouse Analysis
 Provides inventory monitoring capabilities.
 
 Features:
