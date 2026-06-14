@@ -21,8 +21,6 @@ The objective is to transform raw operational supply chain data into actionable 
 ## Project Architecture
 The project follows a modern Medallion Architecture (Bronze → Silver → Gold) approach.
 
-![Architecture](05_Project_Documentation/ETL_Architecture.png)
-
 ### Bronze Layer
 Raw source files loaded into SQL without transformations.
 
