@@ -64,14 +64,14 @@ Business-ready star schema.
 - Dim Suppliers
 - Dim Warehouses
 
-# Key Performance Indicators
-## Procurement
+## Key Performance Indicators
+### Procurement
 - Total Orders
 - Fill Rate %
 - Total Ordered Quantity
 - Total Received Quantity
 
-## Supplier Performance
+### Supplier Performance
 - Average Supplier Rating
 - On-Time Delivery %
 - Delivery Variance
@@ -108,27 +108,27 @@ Features:
 - Low Stock Products
 - Reorder Point Analysis
 
-# Business Insights
-## Examples:
+## Business Insights
+### Examples:
 - Fill Rate maintained at approximately 97%.
 - Several products remain below reorder point.
 - Top suppliers consistently achieve high delivery performance.
 - Electronics category contributes the highest inventory volume.
 
-# Skills Demonstrated
-## SQL
+## Skills Demonstrated
+### SQL
 - ETL Development
 - Data Cleaning
 - Data Transformation
 - Star Schema Modeling
   
-## Power BI
+### Power BI
 - Data Modeling
 - DAX Measures
 - Dashboard Design
 - KPI Development
   
-# Analytics
+### Analytics
 - Procurement Analytics
 - Supplier Analytics
 - Inventory Analytics
