@@ -30,10 +30,10 @@ Gold Layer
 Power BI Dashboard
 
 # Data Warehouse Design
-# Bronze Layer
+## Bronze Layer
 Raw data loaded without transformations.
 
-# Tables:
+### Tables:
 - products
 - suppliers
 - inventory
@@ -41,37 +41,37 @@ Raw data loaded without transformations.
 - shipments
 - warehouses
 
-# Silver Layer
+## Silver Layer
 Data cleansing and standardization performed using SQL.
 
-# Activities:
+### Activities:
 - Remove duplicates
 - Handle null values
 - Trim unwanted spaces
 - Standardize country values
 - Validate data types
 
-# Gold Layer
+## Gold Layer
 Business-ready star schema.
 
-# Fact Tables:
+### Fact Tables:
 - Fact Procurement
 - Fact Inventory
 
-# Dimension Tables:
+### Dimension Tables:
 - Dim Date
 - Dim Products
 - Dim Suppliers
 - Dim Warehouses
 
 # Key Performance Indicators
-# Procurement
+## Procurement
 - Total Orders
 - Fill Rate %
 - Total Ordered Quantity
 - Total Received Quantity
 
-# Supplier Performance
+## Supplier Performance
 - Average Supplier Rating
 - On-Time Delivery %
 - Delivery Variance
@@ -80,8 +80,8 @@ Business-ready star schema.
 - Low Stock Products
 - Average Stock per Warehouse
   
-# Dashboard Pages
-# Executive Overview
+## Dashboard Pages
+### Executive Overview
 Provides a high-level summary of supply chain performance.
 
 Features:
@@ -90,7 +90,7 @@ Features:
 - Order Trends
 - Top Products
 
-# Supplier Performance Analysis
+### Supplier Performance Analysis
 Provides supplier-level insights.
 
 Features:
@@ -99,7 +99,7 @@ Features:
 - On-Time Deliveries vs Late Deliveries
 - Supplier Country Distribution
 
-# Inventory Health & Warehouse Analysis
+### Inventory Health & Warehouse Analysis
 Provides inventory monitoring capabilities.
 
 Features:
@@ -109,20 +109,20 @@ Features:
 - Reorder Point Analysis
 
 # Business Insights
-# Examples:
+## Examples:
 - Fill Rate maintained at approximately 97%.
 - Several products remain below reorder point.
 - Top suppliers consistently achieve high delivery performance.
 - Electronics category contributes the highest inventory volume.
 
 # Skills Demonstrated
-# SQL
+## SQL
 - ETL Development
 - Data Cleaning
 - Data Transformation
 - Star Schema Modeling
   
-# Power BI
+## Power BI
 - Data Modeling
 - DAX Measures
 - Dashboard Design
