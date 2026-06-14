@@ -21,16 +21,16 @@ The objective is to transform raw operational supply chain data into actionable 
 ## Project Architecture
 The project follows a modern Medallion Architecture (Bronze → Silver → Gold) approach.
 
-### Bronze Layer
+### 1. Bronze Layer
 Raw source files loaded into SQL without transformations.
 
-### Silver Layer
+### 2. Silver Layer
 SQL-based cleaning, validation, and standardization.
 
-### Gold Layer
+### 3. Gold Layer
 Star schema consisting of fact and dimension tables optimized for reporting.
 
-### Power BI
+### 4. Power BI
 Interactive dashboards for Procurement, Supplier Performance, and Inventory Health.
 
 ## Data Warehouse Design
