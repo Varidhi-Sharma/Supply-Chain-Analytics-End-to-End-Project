@@ -3,11 +3,11 @@
 
 This project demonstrates an end-to-end Supply Chain Analytics solution using:
 
-SQL Data Warehouse
-ETL Pipeline
-Star Schema Data Modeling
-Power BI Dashboarding
-DAX Measures
+- SQL Data Warehouse
+- ETL Pipeline
+- Star Schema Data Modeling
+- Power BI Dashboarding
+- DAX Measures
 
 The objective is to transform raw operational supply chain data into actionable business insights for procurement, supplier performance, and inventory management.
 
@@ -34,7 +34,6 @@ Power BI Dashboard
 Raw data loaded without transformations.
 
 # Tables:
-
 - products
 - suppliers
 - inventory
@@ -45,8 +44,7 @@ Raw data loaded without transformations.
 # Silver Layer
 Data cleansing and standardization performed using SQL.
 
-Activities:
-
+# Activities:
 - Remove duplicates
 - Handle null values
 - Trim unwanted spaces
@@ -55,21 +53,16 @@ Activities:
 
 # Gold Layer
 Business-ready star schema.
-# Fact Tables:
 
+# Fact Tables:
 - Fact Procurement
 - Fact Inventory
 
 # Dimension Tables:
-
 - Dim Date
 - Dim Products
--Dim Suppliers
+- Dim Suppliers
 - Dim Warehouses
-- 
-# Data Model
-
-(Insert model screenshot here)
 
 # Key Performance Indicators
 # Procurement
@@ -116,7 +109,6 @@ Features:
 - Reorder Point Analysis
 
 # Business Insights
-
 # Examples:
 - Fill Rate maintained at approximately 97%.
 - Several products remain below reorder point.
@@ -124,17 +116,19 @@ Features:
 - Electronics category contributes the highest inventory volume.
 
 # Skills Demonstrated
-SQL
-ETL Development
-Data Cleaning
-Data Transformation
-Star Schema Modeling
-Power BI
-Data Modeling
-DAX Measures
-Dashboard Design
-KPI Development
-Analytics
-Procurement Analytics
-Supplier Analytics
-Inventory Analytics
+# SQL
+- ETL Development
+- Data Cleaning
+- Data Transformation
+- Star Schema Modeling
+  
+# Power BI
+- Data Modeling
+- DAX Measures
+- Dashboard Design
+- KPI Development
+  
+# Analytics
+- Procurement Analytics
+- Supplier Analytics
+- Inventory Analytics
