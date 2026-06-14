@@ -68,6 +68,9 @@ Business-ready star schema.
 - Dim Suppliers
 - Dim Warehouses
 
+### Dataset
+This project uses a synthetic supply chain dataset created for portfolio and educational purposes. The data simulates purchase orders details, supplier, inventory, shipment, and warehouse operations and includes realistic data quality issues to support ETL and analytics workflows.
+
 ### Key Performance Indicators
 #### Procurement
 - Total Orders
