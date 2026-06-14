@@ -58,7 +58,7 @@ Data cleansing and standardization performed using SQL.
 ### - Gold Layer
 Business-ready star schema.
 
-#### = Fact Tables:
+#### - Fact Tables:
 - Fact Procurement
 - Fact Inventory
 
@@ -72,13 +72,13 @@ Business-ready star schema.
 This project uses a synthetic supply chain dataset created for portfolio and educational purposes. The data simulates purchase orders details, supplier, inventory, shipment, and warehouse operations and includes realistic data quality issues to support ETL and analytics workflows.
 
 ### Key Performance Indicators
-#### 1.Procurement
+#### 1. Procurement
 - Total Orders
 - Fill Rate %
 - Total Ordered Quantity
 - Total Received Quantity
 
-#### 2.Supplier Performance
+#### 2. Supplier Performance
 - Average Supplier Rating
 - On-Time Delivery %
 - Delivery Variance
@@ -88,7 +88,7 @@ This project uses a synthetic supply chain dataset created for portfolio and edu
 - Average Stock per Warehouse
   
 ### Dashboard Pages
-#### 1.Executive Overview
+#### 1. Executive Overview
 Provides a high-level summary of supply chain performance.
 
 Features:
@@ -97,7 +97,7 @@ Features:
 - Order Trends
 - Top Products
 
-#### 2.Supplier Performance Analysis
+#### 2. Supplier Performance Analysis
 Provides supplier-level insights.
 
 Features:
@@ -106,7 +106,7 @@ Features:
 - On-Time Deliveries vs Late Deliveries
 - Supplier Country Distribution
 
-#### 3.Inventory Health & Warehouse Analysis
+#### 3. Inventory Health & Warehouse Analysis
 Provides inventory monitoring capabilities.
 
 Features:
