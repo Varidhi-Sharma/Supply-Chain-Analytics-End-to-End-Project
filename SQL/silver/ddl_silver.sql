@@ -244,7 +244,7 @@ from bronze.warehouses;
 end
 $$
 
--- to execute stored procedure created
+-- to execute stored procedure 
 select routine_definition
 from information_schema.routines
 where routine_schema = 'silver'
