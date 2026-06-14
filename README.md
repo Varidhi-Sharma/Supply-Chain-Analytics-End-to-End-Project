@@ -1,6 +1,5 @@
 # Supply-Chain-Analytics-End-to-End-Project
 ## Project Overview
-
 This project demonstrates an end-to-end Supply Chain Analytics solution using:
 
 - SQL Data Warehouse
