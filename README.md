@@ -1,5 +1,5 @@
 # Supply-Chain-Analytics-End-to-End-Project
-# Project Overview
+## Project Overview
 
 This project demonstrates an end-to-end Supply Chain Analytics solution using:
 
@@ -18,22 +18,28 @@ The objective is to transform raw operational supply chain data into actionable 
 | Power BI   | Reporting and visualization            |
 | DAX        | KPI calculations                       |
 
-# Project Architecture
-Raw Files
-    ↓
-Bronze Layer
-    ↓
-Silver Layer
-    ↓
-Gold Layer
-    ↓
-Power BI Dashboard
+## Project Architecture
+The project follows a modern Medallion Architecture (Bronze → Silver → Gold) approach.
 
-# Data Warehouse Design
-## Bronze Layer
+![Architecture](05_Project_Documentation/ETL_Architecture.png)
+
+### Bronze Layer
+Raw source files loaded into SQL without transformations.
+
+### Silver Layer
+SQL-based cleaning, validation, and standardization.
+
+### Gold Layer
+Star schema consisting of fact and dimension tables optimized for reporting.
+
+### Power BI
+Interactive dashboards for Procurement, Supplier Performance, and Inventory Health.
+
+## Data Warehouse Design
+### Bronze Layer
 Raw data loaded without transformations.
 
-### Tables:
+#### Tables:
 - products
 - suppliers
 - inventory
@@ -41,37 +47,37 @@ Raw data loaded without transformations.
 - shipments
 - warehouses
 
-## Silver Layer
+### Silver Layer
 Data cleansing and standardization performed using SQL.
 
-### Activities:
+#### Activities:
 - Remove duplicates
 - Handle null values
 - Trim unwanted spaces
 - Standardize country values
 - Validate data types
 
-## Gold Layer
+### Gold Layer
 Business-ready star schema.
 
-### Fact Tables:
+#### Fact Tables:
 - Fact Procurement
 - Fact Inventory
 
-### Dimension Tables:
+#### Dimension Tables:
 - Dim Date
 - Dim Products
 - Dim Suppliers
 - Dim Warehouses
 
-## Key Performance Indicators
-### Procurement
+### Key Performance Indicators
+#### Procurement
 - Total Orders
 - Fill Rate %
 - Total Ordered Quantity
 - Total Received Quantity
 
-### Supplier Performance
+#### Supplier Performance
 - Average Supplier Rating
 - On-Time Delivery %
 - Delivery Variance
@@ -80,8 +86,8 @@ Business-ready star schema.
 - Low Stock Products
 - Average Stock per Warehouse
   
-## Dashboard Pages
-### Executive Overview
+### Dashboard Pages
+#### Executive Overview
 Provides a high-level summary of supply chain performance.
 
 Features:
@@ -90,7 +96,7 @@ Features:
 - Order Trends
 - Top Products
 
-### Supplier Performance Analysis
+#### Supplier Performance Analysis
 Provides supplier-level insights.
 
 Features:
@@ -99,7 +105,7 @@ Features:
 - On-Time Deliveries vs Late Deliveries
 - Supplier Country Distribution
 
-### Inventory Health & Warehouse Analysis
+#### Inventory Health & Warehouse Analysis
 Provides inventory monitoring capabilities.
 
 Features:
@@ -108,27 +114,27 @@ Features:
 - Low Stock Products
 - Reorder Point Analysis
 
-## Business Insights
-### Examples:
+### Business Insights
+#### Examples:
 - Fill Rate maintained at approximately 97%.
 - Several products remain below reorder point.
 - Top suppliers consistently achieve high delivery performance.
 - Electronics category contributes the highest inventory volume.
 
-## Skills Demonstrated
-### SQL
+### Skills Demonstrated
+#### SQL
 - ETL Development
 - Data Cleaning
 - Data Transformation
 - Star Schema Modeling
   
-### Power BI
+#### Power BI
 - Data Modeling
 - DAX Measures
 - Dashboard Design
 - KPI Development
   
-### Analytics
+#### Analytics
 - Procurement Analytics
 - Supplier Analytics
 - Inventory Analytics
