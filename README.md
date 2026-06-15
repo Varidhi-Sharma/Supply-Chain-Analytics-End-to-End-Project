@@ -121,6 +121,19 @@ Features:
 - Top suppliers consistently achieve high delivery performance.
 - Electronics category contributes the highest inventory volume.
 
+### Repository Structure
+- **SQL/**
+  - **bronze/** – Raw data ingestion scripts.
+  - **silver/** – Data cleaning and transformation scripts.
+  - **gold/** – Business-ready dimensional models, fact tables, and KPI views.
+  - **ETL_Validation/** – ETL workflow scripts and data validation checks.
+  
+- **PowerBI/** – Dashboard file and semantic model.
+  
+- **Dashboard_Screenshots/** - Visual snapshots of key dashboards and insights.
+  
+- **Project_Documentation/** – Architecture diagram and data model
+
 ### Skills Demonstrated
 #### SQL
 - ETL Development
