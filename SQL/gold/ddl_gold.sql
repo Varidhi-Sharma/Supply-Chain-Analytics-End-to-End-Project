@@ -59,7 +59,7 @@ from silver.suppliers
 --gold.dim_products
 drop table if exists gold.dim_products;
 create table gold.dim_products(
-product_key serial primary key, -- surrogate key
+product_key serial primary key, 
 product_id int,
 product_name varchar (50),
 category varchar (50),	
